@@ -1,0 +1,918 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Games Arena</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Days+One&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="text-white">
+   
+<header>
+  <nav class="navbar navbar-expand-lg p-lg-3 border-bottom border-secondary" data-bs-theme="dark">
+    <div class="container-lg px-4 ">
+
+      <a class="navbar-brand fw-bold text-lime d-flex align-items-center gap-2" href="#home">
+        <img src="images/gamepad-solid.png" alt="Logo" class="w-33">
+        GameArena
+      </a>
+
+      <button class="navbar-toggler border-0 shadow-none" type="button"
+        data-bs-toggle="collapse" data-bs-target="#navbarNavMenu"
+        aria-controls="navbarNavMenu" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars fs-3 nav-icon"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavMenu">
+
+        <ul class="navbar-nav me-auto ms-lg-4">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#games">OUR GAMES</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#what-we-do">What We Do</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Our Team</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </li>
+        </ul>
+
+        <div class="navbar-actions">
+
+          <div class="nav-action">
+            <i class="fa-regular fa-bell nav-icon">
+              <span>Notifications</span>
+            </i>
+          </div>
+
+          <div class="nav-action">
+            <i class="fa-regular fa-message nav-icon">
+              <span>Messages</span>
+            </i>
+          </div>
+
+          <a href="#" class="btn btn-lime fw-bold fs-6 px-3 nav-signin">
+            Sign In
+          </a>
+
+        </div>
+
+      </div>
+    </div>
+  </nav>
+</header>
+    <main>
+  <section id="home" class="hero d-flex align-items-center py-5">
+    <div class="container">
+      <div class="row align-items-center gy-5">
+
+
+       <div class="col-lg-6 text-center text-lg-start">
+          <h1 class="display-4 fw-bold text-uppercase">
+            The Ultimate
+            <span class="text-lime d-block">Gaming</span>
+            Experience
+          </h1>
+
+          <p class="gray my-4">
+            Join millions of gamers worldwide in the most competitive eSports tournaments.
+             Experience next-level gaming with cutting-edge
+              technology and endless possibilities
+          </p>
+
+          <div class="d-flex flex-wrap gap-3">
+            <a href="#games" class="btn btn-lime btn-lg fw-bold px-4 py-3">Start Gaming Now</a>
+            <a href="#games" class="btn btn-outline-lime btn-lg fw-bold px-4 py-3">Watch Tournaments</a>
+          </div>
+        </div>
+
+
+        <div class="col-lg-6">
+          <div class="position-relative">
+        <img src="images/hero-img.png" class="w-100 border border-4 rounded-5 hero-img" alt="Gaming setup">
+            <div class="stat-card position-absolute bottom-0 start-0 d-flex align-items-center gap-3 border border-secondary rounded-2 p-3">
+              <i class="fa-solid fa-trophy fs-2 text-lime"></i>
+              <div>
+                <small class="d-block text-secondary">Active Players</small>
+                <strong class="fs-5">2.5M+</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+<section id="games" class="py-5">
+  <div class="container py-5">
+
+    <div class="text-center mb-5">
+      <div class="d-flex justify-content-center align-items-center gap-3 mb-3">
+        <span class="title-line title-line-start"></span>
+        <span class="text-lime fw-bold text-uppercase section-label">Our Games</span>
+        <span class="title-line title-line-end"></span>
+      </div>
+      <h2 class="display-4 fw-bold">Our Latest Games</h2>
+    </div>
+
+    <div class="d-none d-md-block">
+      <div id="gamesCarousel" class="carousel slide">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <div class="row g-4">
+
+              <div class="col-12 col-md-4">
+                <div class="game-card position-relative overflow-hidden rounded-4">
+                  <img src="images/latest-games-1.png" class="w-100 game-img" alt="Alien Companions">
+                  <div class="game-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between p-4">
+                    <div class="d-flex gap-2">
+                      <span class="badge rounded-pill game-badge">
+                        <i class="fa-solid fa-gamepad me-1"></i>ADVENTURE
+                      </span>
+                      <span class="badge rounded-pill game-badge">
+                        <i class="fa-solid fa-users me-1"></i>MULTIPLAYER
+                      </span>
+                    </div>
+                    <h3 class="game-title fw-bold mb-0">Alien Companions</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-4">
+                <div class="game-card position-relative overflow-hidden rounded-4">
+                  <img src="images/latest-games-2.png" class="w-100 game-img" alt="Cyber Run 2099">
+                  <div class="game-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between p-4">
+                    <div class="d-flex gap-2">
+                      <span class="badge rounded-pill game-badge">
+                        <i class="fa-solid fa-flag-checkered me-1"></i>RACING
+                      </span>
+                      <span class="badge rounded-pill game-badge">
+                        <i class="fa-solid fa-bolt me-1"></i>SCI-FI
+                      </span>
+                    </div>
+                    <h3 class="game-title fw-bold mb-0">Cyber Run 2099</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-4">
+                <div class="game-card position-relative overflow-hidden rounded-4">
+                  <img src="images/latest-games-3.png" class="w-100 game-img" alt="Cyber Run 2099">
+                  <div class="game-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between p-4">
+                    <div class="d-flex gap-2">
+                      <span class="badge rounded-pill game-badge">
+                        <i class="fa-solid fa-flag-checkered me-1"></i>RACING
+                      </span>
+                      <span class="badge rounded-pill game-badge">
+                        <i class="fa-solid fa-bolt me-1"></i>SCI-FI
+                      </span>
+                    </div>
+                    <h3 class="game-title fw-bold mb-0">Cyber Run 2099</h3>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row g-4">
+
+              <div class="col-12 col-md-4">
+                <div class="game-card position-relative overflow-hidden rounded-4">
+                  <img src="images/latest-games-4.png" class="w-100 game-img" alt="Cyber Run 2099">
+                  <div class="game-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between p-4">
+                    <div class="d-flex gap-2">
+                      <span class="badge rounded-pill game-badge">
+                        <i class="fa-solid fa-flag-checkered me-1"></i>RACING
+                      </span>
+                      <span class="badge rounded-pill game-badge">
+                        <i class="fa-solid fa-bolt me-1"></i>SCI-FI
+                      </span>
+                    </div>
+                    <h3 class="game-title fw-bold mb-0">Cyber Run 2099</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-4">
+                <div class="game-card position-relative overflow-hidden rounded-4">
+                  <img src="images/latest-games-5.png" class="w-100 game-img" alt="Cyber Run 2099">
+                  <div class="game-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between p-4">
+                    <div class="d-flex gap-2">
+                      <span class="badge rounded-pill game-badge">
+                        <i class="fa-solid fa-flag-checkered me-1"></i>RACING
+                      </span>
+                      <span class="badge rounded-pill game-badge">
+                        <i class="fa-solid fa-bolt me-1"></i>SCI-FI
+                      </span>
+                    </div>
+                    <h3 class="game-title fw-bold mb-0">Cyber Run 2099</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-4">
+                <div class="game-card position-relative overflow-hidden rounded-4">
+                  <img src="images/latest-games-6.png" class="w-100 game-img" alt="Cyber Run 2099">
+                  <div class="game-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between p-4">
+                    <div class="d-flex gap-2">
+                      <span class="badge rounded-pill game-badge">
+                        <i class="fa-solid fa-flag-checkered me-1"></i>RACING
+                      </span>
+                      <span class="badge rounded-pill game-badge">
+                        <i class="fa-solid fa-bolt me-1"></i>SCI-FI
+                      </span>
+                    </div>
+                    <h3 class="game-title fw-bold mb-0">Cyber Run 2099</h3>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row g-4">
+
+              <div class="col-12 col-md-4">
+                <div class="game-card position-relative overflow-hidden rounded-4">
+                  <img src="images/latest-games-7.png" class="w-100 game-img" alt="Cyber Run 2099">
+                  <div class="game-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between p-4">
+                    <div class="d-flex gap-2">
+                      <span class="badge rounded-pill game-badge">
+                        <i class="fa-solid fa-flag-checkered me-1"></i>RACING
+                      </span>
+                      <span class="badge rounded-pill game-badge">
+                        <i class="fa-solid fa-bolt me-1"></i>SCI-FI
+                      </span>
+                    </div>
+                    <h3 class="game-title fw-bold mb-0">Cyber Run 2099</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-4">
+                <div class="game-card position-relative overflow-hidden rounded-4">
+                  <img src="images/latest-games-8.png" class="w-100 game-img" alt="Cyber Run 2099">
+                  <div class="game-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between p-4">
+                    <div class="d-flex gap-2">
+                      <span class="badge rounded-pill game-badge">
+                        <i class="fa-solid fa-flag-checkered me-1"></i>RACING
+                      </span>
+                      <span class="badge rounded-pill game-badge">
+                        <i class="fa-solid fa-bolt me-1"></i>SCI-FI
+                      </span>
+                    </div>
+                    <h3 class="game-title fw-bold mb-0">Cyber Run 2099</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-4">
+                <div class="game-card position-relative overflow-hidden rounded-4">
+                  <img src="images/latest-games-9.png" class="w-100 game-img" alt="Cyber Run 2099">
+                  <div class="game-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between p-4">
+                    <div class="d-flex gap-2">
+                      <span class="badge rounded-pill game-badge">
+                        <i class="fa-solid fa-flag-checkered me-1"></i>RACING
+                      </span>
+                      <span class="badge rounded-pill game-badge">
+                        <i class="fa-solid fa-bolt me-1"></i>SCI-FI
+                      </span>
+                    </div>
+                    <h3 class="game-title fw-bold mb-0">Cyber Run 2099</h3>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center align-items-center gap-3 mt-5">
+        <button class="btn arrow-btn rounded-circle" type="button"
+          data-bs-target="#gamesCarousel" data-bs-slide="prev" aria-label="Previous">
+          <i class="fa-solid fa-arrow-left fs-4"></i>
+        </button>
+
+        <button class="btn arrow-btn rounded-circle" type="button"
+          data-bs-target="#gamesCarousel" data-bs-slide="next" aria-label="Next">
+          <i class="fa-solid fa-arrow-right fs-4"></i>
+        </button>
+
+        <a href="#" class="btn btn-outline-lime btn-lg fw-bold text-uppercase px-4 py-3">View All Games</a>
+      </div>
+    </div>
+
+    <div class="d-md-none">
+
+      <div id="gamesCarouselMobile" class="carousel slide">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <div class="game-card position-relative overflow-hidden rounded-4">
+              <img src="images/latest-games-1.png" class="w-100 game-img" alt="Alien Companions">
+              <div class="game-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between p-4">
+                <div class="d-flex gap-2">
+                  <span class="badge rounded-pill game-badge"><i class="fa-solid fa-gamepad me-1"></i>ADVENTURE</span>
+                  <span class="badge rounded-pill game-badge"><i class="fa-solid fa-users me-1"></i>MULTIPLAYER</span>
+                </div>
+                <h3 class="game-title fw-bold mb-0">Alien Companions</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="game-card position-relative overflow-hidden rounded-4">
+              <img src="images/latest-games-2.png" class="w-100 game-img" alt="Cyber Run 2099">
+              <div class="game-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between p-4">
+                <div class="d-flex gap-2">
+                  <span class="badge rounded-pill game-badge"><i class="fa-solid fa-flag-checkered me-1"></i>RACING</span>
+                  <span class="badge rounded-pill game-badge"><i class="fa-solid fa-bolt me-1"></i>SCI-FI</span>
+                </div>
+                <h3 class="game-title fw-bold mb-0">Cyber Run 2099</h3>
+              </div>
+            </div>
+          </div>
+
+         <div class="carousel-item">
+            <div class="game-card position-relative overflow-hidden rounded-4">
+              <img src="images/latest-games-3.png" class="w-100 game-img" alt="Cyber Run 2099">
+              <div class="game-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between p-4">
+                <div class="d-flex gap-2">
+                  <span class="badge rounded-pill game-badge"><i class="fa-solid fa-flag-checkered me-1"></i>RACING</span>
+                  <span class="badge rounded-pill game-badge"><i class="fa-solid fa-bolt me-1"></i>SCI-FI</span>
+                </div>
+                <h3 class="game-title fw-bold mb-0">Cyber Run 2099</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="game-card position-relative overflow-hidden rounded-4">
+              <img src="images/latest-games-4.png" class="w-100 game-img" alt="Cyber Run 2099">
+              <div class="game-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between p-4">
+                <div class="d-flex gap-2">
+                  <span class="badge rounded-pill game-badge"><i class="fa-solid fa-flag-checkered me-1"></i>RACING</span>
+                  <span class="badge rounded-pill game-badge"><i class="fa-solid fa-bolt me-1"></i>SCI-FI</span>
+                </div>
+                <h3 class="game-title fw-bold mb-0">Cyber Run 2099</h3>
+              </div>
+            </div>
+          </div>
+<div class="carousel-item">
+            <div class="game-card position-relative overflow-hidden rounded-4">
+              <img src="images/latest-games-5.png" class="w-100 game-img" alt="Cyber Run 2099">
+              <div class="game-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between p-4">
+                <div class="d-flex gap-2">
+                  <span class="badge rounded-pill game-badge"><i class="fa-solid fa-flag-checkered me-1"></i>RACING</span>
+                  <span class="badge rounded-pill game-badge"><i class="fa-solid fa-bolt me-1"></i>SCI-FI</span>
+                </div>
+                <h3 class="game-title fw-bold mb-0">Cyber Run 2099</h3>
+              </div>
+            </div>
+          </div>
+<div class="carousel-item">
+            <div class="game-card position-relative overflow-hidden rounded-4">
+              <img src="images/latest-games-6.png" class="w-100 game-img" alt="Cyber Run 2099">
+              <div class="game-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between p-4">
+                <div class="d-flex gap-2">
+                  <span class="badge rounded-pill game-badge"><i class="fa-solid fa-flag-checkered me-1"></i>RACING</span>
+                  <span class="badge rounded-pill game-badge"><i class="fa-solid fa-bolt me-1"></i>SCI-FI</span>
+                </div>
+                <h3 class="game-title fw-bold mb-0">Cyber Run 2099</h3>
+              </div>
+            </div>
+          </div>
+                   <div class="carousel-item">
+            <div class="game-card position-relative overflow-hidden rounded-4">
+              <img src="images/latest-games-7.png" class="w-100 game-img" alt="Cyber Run 2099">
+              <div class="game-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between p-4">
+                <div class="d-flex gap-2">
+                  <span class="badge rounded-pill game-badge"><i class="fa-solid fa-flag-checkered me-1"></i>RACING</span>
+                  <span class="badge rounded-pill game-badge"><i class="fa-solid fa-bolt me-1"></i>SCI-FI</span>
+                </div>
+                <h3 class="game-title fw-bold mb-0">Cyber Run 2099</h3>
+              </div>
+            </div>
+          </div>
+<div class="carousel-item">
+            <div class="game-card position-relative overflow-hidden rounded-4">
+              <img src="images/latest-games-8.png" class="w-100 game-img" alt="Cyber Run 2099">
+              <div class="game-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between p-4">
+                <div class="d-flex gap-2">
+                  <span class="badge rounded-pill game-badge"><i class="fa-solid fa-flag-checkered me-1"></i>RACING</span>
+                  <span class="badge rounded-pill game-badge"><i class="fa-solid fa-bolt me-1"></i>SCI-FI</span>
+                </div>
+                <h3 class="game-title fw-bold mb-0">Cyber Run 2099</h3>
+              </div>
+            </div>
+          </div>
+<div class="carousel-item">
+            <div class="game-card position-relative overflow-hidden rounded-4">
+              <img src="images/latest-games-9.png" class="w-100 game-img" alt="Cyber Run 2099">
+              <div class="game-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between p-4">
+                <div class="d-flex gap-2">
+                  <span class="badge rounded-pill game-badge"><i class="fa-solid fa-flag-checkered me-1"></i>RACING</span>
+                  <span class="badge rounded-pill game-badge"><i class="fa-solid fa-bolt me-1"></i>SCI-FI</span>
+                </div>
+                <h3 class="game-title fw-bold mb-0">Cyber Run 2099</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center align-items-center gap-3 mt-4">
+        <button class="btn arrow-btn rounded-circle" type="button"
+          data-bs-target="#gamesCarouselMobile" data-bs-slide="prev" aria-label="Previous">
+          <i class="fa-solid fa-arrow-left fs-4"></i>
+        </button>
+
+        <button class="btn arrow-btn rounded-circle" type="button"
+          data-bs-target="#gamesCarouselMobile" data-bs-slide="next" aria-label="Next">
+          <i class="fa-solid fa-arrow-right fs-4"></i>
+        </button>
+
+        <a href="#" class="btn btn-outline-lime btn-lg fw-bold text-uppercase px-4 py-3">View All Games</a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<section id="what-we-do" class="py-5">
+  <div class="container py-4">
+
+    <div class="text-center mb-5">
+      <div class="d-flex justify-content-center align-items-center gap-3 mb-3">
+        <span class="title-line title-line-start"></span>
+        <span class="text-lime fw-bold text-uppercase section-label">What We Do</span>
+        <span class="title-line title-line-end"></span>
+      </div>
+
+      <h2 class="display-5 fw-bold">
+        More Than Just Games
+        <br>
+        We Build <span class="text-lime">Interactive</span> Journeys
+      </h2>
+    </div>
+
+    <div class="row g-3 g-md-4 services-grid">
+
+      <div class="col-6 col-md-3">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fa-solid fa-desktop"></i>
+          </div>
+          <h3>PC Game<br>Development</h3>
+        </div>
+      </div>
+
+
+      <div class="col-6 col-md-3">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fa-solid fa-desktop"></i>
+          </div>
+          <h3>PC Game<br>Development</h3>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3">
+        <div class="service-card service-image">
+          <img src="images/what-we-do-1.png" alt="Game Development">
+        </div>
+      </div>
+
+
+      <div class="col-6 col-md-3">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fa-solid fa-desktop"></i>
+          </div>
+          <h3>PC Game<br>Development</h3>
+        </div>
+      </div>
+
+    
+      <div class="col-6 col-md-3">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fa-solid fa-desktop"></i>
+          </div>
+          <h3>PC Game<br>Development</h3>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3">
+        <div class="service-card service-image">
+          <img src="images/what-we-do-2.png" alt="Game Character">
+        </div>
+      </div>
+
+  
+      <div class="col-6 col-md-3">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fa-solid fa-desktop"></i>
+          </div>
+          <h3>PC Game<br>Development</h3>
+        </div>
+      </div>
+
+     
+      <div class="col-6 col-md-3">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fa-solid fa-desktop"></i>
+          </div>
+          <h3>PC Game<br>Development</h3>
+        </div>
+      </div>
+      </div>
+
+    </div>
+
+    <div class="services-glow mt-4"></div>
+
+  </div>
+</section>
+
+<section id="games-logos" class="games-logos-section">
+
+  <div class="logos-track logos-track-one">
+    <div class="logos-group">
+      <img src="images/logo-1.jpg" alt="Game Logo"><img src="images/logo-2.jpg" alt="Game Logo"><img src="images/logo-3.jpg" alt="Game Logo"><img src="images/logo-4.jpg" alt="Game Logo"><img src="images/logo-5.jpg" alt="Game Logo"><img src="images/logo-6.jpg" alt="Game Logo"><img src="images/logo-7.jpg" alt="Game Logo"><img src="images/logo-8.jpg" alt="Game Logo">
+      <img src="images/logo-1.jpg" alt=""><img src="images/logo-2.jpg" alt=""><img src="images/logo-3.jpg" alt=""><img src="images/logo-4.jpg" alt=""><img src="images/logo-5.jpg" alt=""><img src="images/logo-6.jpg" alt=""><img src="images/logo-7.jpg" alt=""><img src="images/logo-8.jpg" alt="">
+      <img src="images/logo-1.jpg" alt=""><img src="images/logo-2.jpg" alt=""><img src="images/logo-3.jpg" alt=""><img src="images/logo-4.jpg" alt=""><img src="images/logo-5.jpg" alt=""><img src="images/logo-6.jpg" alt=""><img src="images/logo-7.jpg" alt=""><img src="images/logo-8.jpg" alt="">
+    </div>
+    <div class="logos-group" aria-hidden="true">
+      <img src="images/logo-1.jpg" alt=""><img src="images/logo-2.jpg" alt=""><img src="images/logo-3.jpg" alt=""><img src="images/logo-4.jpg" alt=""><img src="images/logo-5.jpg" alt=""><img src="images/logo-6.jpg" alt=""><img src="images/logo-7.jpg" alt=""><img src="images/logo-8.jpg" alt="">
+      <img src="images/logo-1.jpg" alt=""><img src="images/logo-2.jpg" alt=""><img src="images/logo-3.jpg" alt=""><img src="images/logo-4.jpg" alt=""><img src="images/logo-5.jpg" alt=""><img src="images/logo-6.jpg" alt=""><img src="images/logo-7.jpg" alt=""><img src="images/logo-8.jpg" alt="">
+      <img src="images/logo-1.jpg" alt=""><img src="images/logo-2.jpg" alt=""><img src="images/logo-3.jpg" alt=""><img src="images/logo-4.jpg" alt=""><img src="images/logo-5.jpg" alt=""><img src="images/logo-6.jpg" alt=""><img src="images/logo-7.jpg" alt=""><img src="images/logo-8.jpg" alt="">
+    </div>
+  </div>
+
+  <div class="logos-track logos-track-two">
+    <div class="logos-group">
+      <img src="images/logo-8.jpg" alt="Game Logo"><img src="images/logo-7.jpg" alt="Game Logo"><img src="images/logo-6.jpg" alt="Game Logo"><img src="images/logo-5.jpg" alt="Game Logo"><img src="images/logo-4.jpg" alt="Game Logo"><img src="images/logo-3.jpg" alt="Game Logo"><img src="images/logo-2.jpg" alt="Game Logo"><img src="images/logo-1.jpg" alt="Game Logo">
+      <img src="images/logo-8.jpg" alt=""><img src="images/logo-7.jpg" alt=""><img src="images/logo-6.jpg" alt=""><img src="images/logo-5.jpg" alt=""><img src="images/logo-4.jpg" alt=""><img src="images/logo-3.jpg" alt=""><img src="images/logo-2.jpg" alt=""><img src="images/logo-1.jpg" alt="">
+      <img src="images/logo-8.jpg" alt=""><img src="images/logo-7.jpg" alt=""><img src="images/logo-6.jpg" alt=""><img src="images/logo-5.jpg" alt=""><img src="images/logo-4.jpg" alt=""><img src="images/logo-3.jpg" alt=""><img src="images/logo-2.jpg" alt=""><img src="images/logo-1.jpg" alt="">
+    </div>
+    <div class="logos-group" aria-hidden="true">
+      <img src="images/logo-8.jpg" alt=""><img src="images/logo-7.jpg" alt=""><img src="images/logo-6.jpg" alt=""><img src="images/logo-5.jpg" alt=""><img src="images/logo-4.jpg" alt=""><img src="images/logo-3.jpg" alt=""><img src="images/logo-2.jpg" alt=""><img src="images/logo-1.jpg" alt="">
+      <img src="images/logo-8.jpg" alt=""><img src="images/logo-7.jpg" alt=""><img src="images/logo-6.jpg" alt=""><img src="images/logo-5.jpg" alt=""><img src="images/logo-4.jpg" alt=""><img src="images/logo-3.jpg" alt=""><img src="images/logo-2.jpg" alt=""><img src="images/logo-1.jpg" alt="">
+      <img src="images/logo-8.jpg" alt=""><img src="images/logo-7.jpg" alt=""><img src="images/logo-6.jpg" alt=""><img src="images/logo-5.jpg" alt=""><img src="images/logo-4.jpg" alt=""><img src="images/logo-3.jpg" alt=""><img src="images/logo-2.jpg" alt=""><img src="images/logo-1.jpg" alt="">
+    </div>
+  </div>
+
+</section>
+
+<section id="team" class="py-5">
+  <div class="container py-4">
+
+    <div class="text-center mb-5">
+      <div class="d-flex justify-content-center align-items-center gap-3 mb-3">
+        <span class="title-line title-line-start"></span>
+        <span class="text-lime fw-bold text-uppercase section-label">Our Team</span>
+        <span class="title-line title-line-end"></span>
+      </div>
+      <h2 class="display-5 fw-bold">Our Best Team Members</h2>
+      <p class="team-subtitle mt-3">Meet the professional gamers and experts behind our success</p>
+    </div>
+
+    <div class="row g-3 g-md-4 ">
+
+      <div class="col-6 col-md-3">
+        <article class="team-card">
+          <img src="images/avatar-1.png" class="team-img" alt="Alex Chen">
+          <div class="team-gray"></div>
+          <div class="team-info">
+            <h3 class="team-name">Alex "Phantom" Chen</h3>
+            <p class="team-role">Pro Player - VALORANT</p>
+            <p class="team-meta">World Champion 2023</p>
+          </div>
+          <span class="team-tag">PHANTOM</span>
+        </article>
+      </div>
+
+       <div class="col-6 col-md-3">
+        <article class="team-card">
+          <img src="images/avatar-1.png" class="team-img" alt="Alex Chen">
+          <div class="team-gray"></div>
+          <div class="team-info">
+            <h3 class="team-name">Alex "Phantom" Chen</h3>
+            <p class="team-role">Pro Player - VALORANT</p>
+            <p class="team-meta">World Champion 2023</p>
+          </div>
+          <span class="team-tag">PHANTOM</span>
+        </article>
+      </div>
+        <div class="col-6 col-md-3">
+        <article class="team-card">
+          <img src="images/avatar-1.png" class="team-img" alt="Alex Chen">
+          <div class="team-gray"></div>
+          <div class="team-info">
+            <h3 class="team-name">Alex "Phantom" Chen</h3>
+            <p class="team-role">Pro Player - VALORANT</p>
+            <p class="team-meta">World Champion 2023</p>
+          </div>
+          <span class="team-tag">PHANTOM</span>
+        </article>
+      </div>
+       <div class="col-6 col-md-3">
+        <article class="team-card">
+          <img src="images/avatar-1.png" class="team-img" alt="Alex Chen">
+          <div class="team-gray"></div>
+          <div class="team-info">
+            <h3 class="team-name">Alex "Phantom" Chen</h3>
+            <p class="team-role">Pro Player - VALORANT</p>
+            <p class="team-meta">World Champion 2023</p>
+          </div>
+          <span class="team-tag">PHANTOM</span>
+        </article>
+      </div>
+
+       <div class="col-6 col-md-3">
+        <article class="team-card">
+          <img src="images/avatar-1.png" class="team-img" alt="Alex Chen">
+          <div class="team-gray"></div>
+          <div class="team-info">
+            <h3 class="team-name">Alex "Phantom" Chen</h3>
+            <p class="team-role">Pro Player - VALORANT</p>
+            <p class="team-meta">World Champion 2023</p>
+          </div>
+          <span class="team-tag">PHANTOM</span>
+        </article>
+      </div>
+
+       <div class="col-6 col-md-3">
+        <article class="team-card">
+          <img src="images/avatar-1.png" class="team-img" alt="Alex Chen">
+          <div class="team-gray"></div>
+          <div class="team-info">
+            <h3 class="team-name">Alex "Phantom" Chen</h3>
+            <p class="team-role">Pro Player - VALORANT</p>
+            <p class="team-meta">World Champion 2023</p>
+          </div>
+          <span class="team-tag">PHANTOM</span>
+        </article>
+      </div>
+
+      <div class="col-6 col-md-3">
+        <article class="team-card">
+          <img src="images/avatar-1.png" class="team-img" alt="Alex Chen">
+          <div class="team-gray"></div>
+          <div class="team-info">
+            <h3 class="team-name">Alex "Phantom" Chen</h3>
+            <p class="team-role">Pro Player - VALORANT</p>
+            <p class="team-meta">World Champion 2023</p>
+          </div>
+          <span class="team-tag">PHANTOM</span>
+        </article>
+      </div>
+
+    <div class="col-6 col-md-3">
+        <article class="team-card">
+          <img src="images/avatar-1.png" class="team-img" alt="Alex Chen">
+          <div class="team-gray"></div>
+          <div class="team-info">
+            <h3 class="team-name">Alex "Phantom" Chen</h3>
+            <p class="team-role">Pro Player - VALORANT</p>
+            <p class="team-meta">World Champion 2023</p>
+          </div>
+          <span class="team-tag">PHANTOM</span>
+        </article>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="py-5">
+  <div class="container py-4">
+
+    <div class="text-center mb-5">
+      <div class="d-flex justify-content-center align-items-center gap-3 mb-3">
+        <span class="title-line title-line-start"></span>
+        <span class="text-lime fw-bold text-uppercase section-label">Contact Us</span>
+        <span class="title-line title-line-end"></span>
+      </div>
+      <h2 class="display-5 fw-bold">Get In Touch</h2>
+      <p class="team-subtitle mt-3">Meet the professional gamers and experts behind our success</p>
+    </div>
+
+    <div class="row g-4">
+
+      
+      <div class="col-lg-6">
+        <div class="d-flex flex-column gap-4">
+
+          <div class="contact-card d-flex gap-3">
+            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <h3 class="contact-title">Our Location</h3>
+              <p class="contact-text mb-0">123 Gaming Street, Esports City, EC 12345</p>
+            </div>
+          </div>
+
+          <div class="contact-card d-flex gap-3">
+            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <h3 class="contact-title">Phone Number</h3>
+              <p class="contact-text mb-0">+1 (555) 123-4567</p>
+            </div>
+          </div>
+
+          <div class="contact-card d-flex gap-3">
+            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <h3 class="contact-title">Email Address</h3>
+              <p class="contact-text mb-0">contact@gamearena.com</p>
+            </div>
+          </div>
+
+          <div class="community-card">
+            <h3 class="contact-title mb-2">Join Our Community</h3>
+            <p class="small mb-3">Connect with us on social media for the latest updates</p>
+            <div class="d-flex gap-2">
+              <a href="#" class="social-circle" aria-label="Discord"><i class="fa-brands fa-discord"></i></a>
+              <a href="#" class="social-circle" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#" class="social-circle" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="social-circle" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- العمود اليمين: الفورم -->
+      <div class="col-lg-6">
+        <form class="contact-card h-100 p-4">
+          <h3 class="contact-title fs-5 mb-4">Send us a Message</h3>
+
+          <div class="row g-3 mb-3">
+            <div class="col-6">
+              <label for="firstName" class="form-label small fw-bold">First Name</label>
+              <input type="text" id="firstName" class="form-control contact-input" placeholder="Your first name">
+            </div>
+            <div class="col-6">
+              <label for="lastName" class="form-label small fw-bold">Last Name</label>
+              <input type="text" id="lastName" class="form-control contact-input" placeholder="Your last name">
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label small fw-bold">Email Address</label>
+            <input type="email" id="email" class="form-control contact-input" placeholder="your.email@example.com">
+          </div>
+
+          <div class="mb-3">
+            <label for="subject" class="form-label small fw-bold">Subject</label>
+            <select id="subject" class="form-select contact-input">
+              <option>General Inquiry</option>
+              <option>Tournament Support</option>
+              <option>Technical Issue</option>
+              <option>Partnership</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label for="message" class="form-label small fw-bold">Message</label>
+            <textarea id="message" rows="4" class="form-control contact-input" placeholder="Tell us how we can help you..."></textarea>
+          </div>
+
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="newsletter">
+            <label class="form-check-label small text-secondary" for="newsletter">
+              Subscribe to our newsletter for gaming updates
+            </label>
+          </div>
+
+          <button type="submit" class="btn btn-lime fw-bold w-100 py-2">
+            Send Message <i class="fa-solid fa-paper-plane ms-1"></i>
+          </button>
+
+          <div class="row text-center border-top border-secondary mt-4 pt-4">
+            <div class="col-6">
+              <div class="stat-number">24/7</div>
+              <small class="text-secondary">Support Available</small>
+            </div>
+            <div class="col-6">
+              <div class="stat-number"> < 1hr </div>
+              <small class="text-secondary">Average Response</small>
+            </div>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+</main>
+
+<footer id="footer">
+  <div class="container">
+
+    <div class="row g-4 footer-content">
+
+      <div class="col-6 col-lg-3">
+        <div class="footer-brand">
+          <a href="#" class="footer-logo">
+            <i class="fa-solid fa-gamepad"></i>
+            GameArena
+          </a>
+
+          <p class="footer-description">
+            The ultimate destination for competitive gaming, esports tournaments, and gaming community.
+          </p>
+
+          <div class="footer-social">
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-twitch"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-lg-3">
+        <div class="footer-links">
+          <h4>Games</h4>
+          <ul>
+            <li><a href="#">VALORANT</a></li>
+            <li><a href="#">League of Legends</a></li>
+            <li><a href="#">CS:GO</a></li>
+            <li><a href="#">Dota 2</a></li>
+            <li><a href="#">Apex Legends</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-6 col-lg-3">
+        <div class="footer-links">
+          <h4>Tournaments</h4>
+          <ul>
+            <li><a href="#">Upcoming Events</a></li>
+            <li><a href="#">Live Matches</a></li>
+            <li><a href="#">Results</a></li>
+            <li><a href="#">Rankings</a></li>
+            <li><a href="#">Schedule</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-6 col-lg-3">
+        <div class="footer-links">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Bug Reports</a></li>
+            <li><a href="#">Feature Requests</a></li>
+            <li><a href="#">Community Guidelines</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 GameArena. All rights reserved.</p>
+
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Policy</a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
